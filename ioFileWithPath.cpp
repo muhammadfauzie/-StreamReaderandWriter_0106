@@ -27,4 +27,6 @@ int main() {
     //menunjuk ke sebuah nama file.
     infile.open("contohfile.txt");
     cout << endl << ">= Membuka dan Membaca file" << endl;
-    
+    //jika file ada maka
+    if  (infile.is_open())
+   
